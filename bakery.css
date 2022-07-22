@@ -1,0 +1,106 @@
+body{
+  background: url("../newcitybakeries/image/pastry.jpg");
+  /* https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.dreamstime.com%2Fphotos-images%2Fimage-blur-bakery-shop-bokeh-background.html&psig=AOvVaw2OROayWowxxDWG9qbtA1mZ&ust=1647042967375000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCLiU56vfvPYCFQAAAAAdAAAAABAV */
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family: 'Hubballi', cursive;
+}
+.center {
+  margin: auto;
+  width: 80%;
+  padding: 30px;
+}
+
+#form{
+  width: 800px;
+  margin: auto;
+  text-align: center;
+  border: 5px solid rgb(211, 164, 35);
+  padding: 40px;
+}
+
+.companyName {
+  text-align: center;
+  font-size: 50px;
+  color: #fff;
+  text-shadow: 3px 3px 20px #f18831, -2px 1px 30px #fa9e13;
+  font-family: 'Fredoka', sans-serif;
+  display: inline-block;
+  text-align: center;
+  vertical-align:middle;
+  font-weight:900;
+  margin-bottom: 30px;
+   
+}
+
+.left_align {
+  text-align: left;
+  padding-left: 100px;
+  padding-right: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:700;
+  color: rgb(88, 86, 86);
+  }
+  
+  .center_align {
+  text-align: center;
+  padding-left: 50px;
+  padding-right: 50px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:700;
+  color: rgb(88, 86, 86);
+  }
+  
+  .right_align {
+  text-align: right;
+  padding-left: 100px;
+  padding-right: 120px;
+  font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  font-weight:700;
+  color: rgb(88, 86, 86);
+  }
+
+.gap{
+  margin: 5px;
+  font-size: 20px;
+  font-family: 'Roboto Condensed', sans-serif;
+}
+#summary {
+  font-size: 16px;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(230, 127, 59);
+  width: fit-content;
+  margin: auto;
+  padding: 10px;
+  border: 2px solid;
+  padding: 10px;
+  box-shadow: 5px 10px 8px #888888;
+  padding-bottom: 5px;
+  margin-top: 20px;
+
+}
+
+#summary:empty{
+  display: none;
+}
+
+.firstHeader, .secondHeader{
+  color: #b34100c9;
+  font-weight: 700;
+  font-style: italic;
+}
+.firstHeader{
+  margin-bottom: 20px;
+}
+.secondHeader{
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.option{
+  font-family: 'Sansita Swashed', cursive;
+  color: #d4442a;
+  font-size: 30px;
+  margin-top: 10px;
+}
